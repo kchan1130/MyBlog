@@ -28,7 +28,7 @@
           >
             项目
           </router-link>
-          <a
+          <!-- <a
             target="_blank"
             rel="noopener noreferrer"
             class="link"
@@ -67,9 +67,9 @@
             href="https://www.jianshu.com/u/91717b553bfd"
           >
             简书
-          </a>
+          </a> -->
         </div>
-        <div class="introduce"> 时光正好，未来可期，加油 ！ </div>
+        <div class="introduce"> kchan的个人博客网站。 </div>
       </div>
     </div>
   </div>
@@ -85,14 +85,14 @@ export default defineComponent({
     return {};
   },
   mounted() {
-    if (document.location.protocol === "http:") {
-      ElMessage({
-        message:
-          "本网站已经配置了 https，为了有更好的体验效果，请把地址前缀换成 https 哦",
-        type: "warning",
-        duration: 3000,
-      });
-    }
+    // if (document.location.protocol === "http:") {
+    //   ElMessage({
+    //     message:
+    //       "本网站已经配置了 https，为了有更好的体验效果，请把地址前缀换成 https 哦",
+    //     type: "warning",
+    //     duration: 3000,
+    //   });
+    // }
     let sakura_point_vsh: string = `
     uniform mat4 uProjection;
     uniform mat4 uModelview;

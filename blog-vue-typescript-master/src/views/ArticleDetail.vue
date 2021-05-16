@@ -13,7 +13,7 @@
               <img
                 class="auth-logo"
                 src="../assets/userLogo.jpeg"
-                alt="BiaoChenXuYing"
+                alt="kchan"
               >
             </div>
             <div class="info">
@@ -145,7 +145,7 @@ export default defineComponent({
       articleDetail: {
         toc: "",
         _id: "",
-        author: "biaochenxuying",
+        author: "kchan",
         category: [],
         comments: [],
         create_time: "",

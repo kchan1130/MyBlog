@@ -5,7 +5,7 @@
       src="../assets/userLogo.jpeg"
       alt=""
     >
-    <div class="title">夜尽天明</div>
+    <div class="title">kchan</div>
     <div class="right-content">
       <!-- <div class="item">
         <div class="num">123</div>粉丝
@@ -21,7 +21,7 @@
       </div> -->
     </div>
     <div class="tags">
-      <div class="title">标签云</div>
+      <div class="title">右侧Title-1</div>
       <router-link
         v-for="item in list"
         class="item"
@@ -32,22 +32,22 @@
       </router-link>
     </div>
     <div class="introduce">
-      <div class="title">技术以内的 BB</div>
+      <div class="title">右侧Title-2</div>
       <div class="content">
         <img
           style="width:100%;"
-          src="../assets/BiaoChenXuYing.png"
-          alt="全栈修炼"
+          src="../assets/harrypotter1.jpeg"
+          alt="右侧Title-2 内容"
         />
       </div>
     </div>
     <div class="introduce">
-      <div class="title">开源项目的 BB</div>
+      <div class="title">右侧Title-3</div>
       <div class="content">
         <img
           style="width:100%;"
-          src="../assets/FrontEndGitHub.png"
-          alt="前端GitHub"
+          src="../assets/harrypotter2.jpeg"
+          alt="右侧Title-3 内容"
         />
       </div>
     </div>
