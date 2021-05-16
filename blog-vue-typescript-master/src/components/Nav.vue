@@ -11,7 +11,7 @@
               <img
                 class="logo"
                 src="../assets/logo.jpg"
-                alt="BiaoChenXuYing"
+                alt="kchan"
               >
             </router-link>
           </el-col>
@@ -47,13 +47,13 @@
                   v-if="!userInfo.avatar"
                   class="user-img"
                   src="../assets/user.png"
-                  alt="BiaoChenXuYing"
+                  alt="kchan"
                 >
                 <img
                   v-if="userInfo.avatar"
                   class="user-img"
                   :src="userInfo.avatar"
-                  alt="BiaoChenXuYing"
+                  alt="kchan"
                 >
                 <el-dropdown-menu slot="dropdown">
                   <el-dropdown-item command="logout">登 出</el-dropdown-item>
@@ -91,7 +91,7 @@
             <img
               class="logo fl"
               src="../assets/logo.jpg"
-              alt="BiaoChenXuYing"
+              alt="kchan"
             >
           </router-link>
         </div>

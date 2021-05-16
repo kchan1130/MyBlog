@@ -1,10 +1,10 @@
 
 <template>
   <div class="footer">
-    <div>全栈修炼 ©2018 Created by BiaoChenXuYing</div>
+    <div>MyBlog ©2021 Created by kchan</div>
     <div class="number">
       <a href="http://www.beian.miit.gov.cn" target="_blank"
-        >粤ICP备18141506号</a
+        >TODO 备案号</a
       >
     </div>
   </div>
