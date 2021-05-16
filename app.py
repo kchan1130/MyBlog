@@ -1,5 +1,7 @@
 from flask import Flask, render_template
 
+from utils.Log import Log
+
 
 app = Flask(
     __name__,
@@ -15,8 +17,8 @@ def index():
 
 
 if __name__ == '__main__':
+    Log.info('start run server')
     app.run(
-        debug=False,
+        debug=True,
         port=7777,
     )
-

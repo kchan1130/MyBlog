@@ -1,5 +1,7 @@
 node_modules
 .DS_Store
 *.pyc
-venv
 .idea
+hislog
+venv
+debug.py
